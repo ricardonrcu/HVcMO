@@ -45,11 +45,9 @@ https://github.com/SCMaree/HillVallEA
 
 in the definitions for the namespace hillvallea, on the "hillvallea_internal.hpp" file in the HillVallEA project.
 
-4- For a start, take the example scripts provided by S.C. Maree as "example_simple.cpp" and "example_CEC2013_benchmark.cpp"
+4- For a start, take the example script provided by S.C. Maree as "example_CEC2013_benchmark.cpp"
 
-5- The simple example script is ready to execute.
-
-6- In case of "example_CEC2013_benchmark.cpp", add the reference to hvcmo:
+5- Add the reference to hvcmo:
 
 	#include "HillVallEA/hvcmo20a.h"
 
@@ -59,15 +57,17 @@ Later, instead of creating a hillvallea object as:
 
 create a hvcmo object as:
 
-	hillvallea::hvcmo_t hvcmo20a(tolerance, ...);
+	hillvallea::hvcmo_t hvcmo(...);
 
-7- Note that you don not need to set the id of the 'cluster_alg' sice it is already fixed in hvcmo20.
+6- Consequently set 'local_optimizer_index' and 'cluster_alg' for your hvcmo object.
 
-8- Run the script the same way as in HillVallEA, excepting that you have to tell hvcmo20a the id for each run:
+7- Invoke the execution of the optimizer by telling the id for the current run:
 
-	hvcmo20a.run(run+1);
+	hvcmo.run(run+1);
 
 Such an id has no serious impact; it is used only to form some names for output files.
+
+8- Run the script.
 
 # Licence
 
