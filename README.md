@@ -47,7 +47,7 @@ in the definitions for the namespace hillvallea, on the "hillvallea_internal.hpp
 
 4- For a start, take the example script provided by S.C. Maree as "example_CEC2013_benchmark.cpp"
 
-5- Add the reference to hvcmo:
+5- Add the reference to hvcmo20a:
 
 	#include "HillVallEA/hvcmo20a.h"
 
