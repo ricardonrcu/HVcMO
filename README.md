@@ -71,4 +71,4 @@ Such an id has no serious impact; it is used only to form some names for output 
 
 # Licence
 
-The extensions of HVcMO with respect to HillVallEA are available under the same GNU General Public License v3.0.
+The extensions of HVcMO with respect to HillVallEA are available here under the same GNU General Public License v3.0.
