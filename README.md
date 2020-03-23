@@ -16,6 +16,7 @@ Maree S.C., Alderliesten T., Thierens D., and Bosman, P.A.N., "Real-Valued Evolu
 
 The main augmentations concern:
 1- The application of the search operators of VMO over the truncated population (this is the biggest change).
+
 2- The shrinkage of the population size (to sample) when the remaining budget is not enough to deal with a new population with the current size. (This choice is indeed considered by S.C. Maree for HillVallEA, although discarded.)
 3- The alteration of the condition to increment the size parameters. In HillVallEA, that happens if no new peak is detected. Here, it occurs if also the population size was never reduced (this is a consequence of the 2nd modification).
 4- The inclusion of other solutions in the "rejection set", in particular, each master that represents a recently discovered peak, and the best elite found thus far.
