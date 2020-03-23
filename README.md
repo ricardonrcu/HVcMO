@@ -18,17 +18,17 @@ The main augmentations concern:
 
 1- The application of the search operators of VMO over the truncated population (this is the biggest change).
 
-2- The shrinkage of the size of the population to sample when the remaining budget is not enough to deal with a new population with the current size. This choice is indeed considered by S.C. Maree for HillVallEA, although discarded.
+2- The shrinkage of the size of the population to sample when the remaining budget is not enough to deal with a new population with the current size. This choice was indeed considered by S.C. Maree for HillVallEA, although discarded.
 
 3- The alteration of the condition to increment the size parameters. In HillVallEA, that happens if no new peak is detected. Here, it occurs if also the population size was never reduced (this is a consequence of the 2nd modification).
 
-4- The inclusion of other solutions in the "rejection set", in particular, each master that represents a recently discovered peak, and the best elite found thus far.
+4- The inclusion of other solutions in the 'rejection set', in particular, each master that represents a recently discovered peak, and the best elite found thus far.
     
 # Compatibility of the source codes for HVcMO20a and for HillVallEA19
 
 As evolutionary algorithms, HVcMO and HillVallEA share several conceptualizations, regardless of the names given, e.g. node (in VMO) means a solution and the mesh represents the population. In addition, there is a common reasoning behind any EA, implying that there are lots of common procedures. Then, instead of writing a totally new source code for HVcMO20a, it largely reutilizes the source code of HillVallEA19, the ultimate version of HillVallEA, also as an attempt to assure a fair comparability between their performances. The program for HillVallEA19 is available online under GNU General Public License v3.0:
 
-By S.C. Maree
+By S.C. Maree at 
 https://github.com/SCMaree/HillVallEA
 
 # How to run HVcMO20a?
