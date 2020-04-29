@@ -2,7 +2,7 @@
 
 Hill-Valley-Clustering-based Variable Mesh Optimization (HVcMO) is an instance of VMO-N, the multimodal optimization framework for the VMO metaheuristic. All of them are described in:
 
-Navarro R. and Kim C.H., "Niching Multimodal Landscapes Faster yet Effectively: VMO and HillVallEA Benefit Together", Mathematics, vol. 8, 665, 2020. https://doi.org/10.3390/math8050665
+Navarro R. and Kim C.H., "Niching Multimodal Landscapes Faster Yet Effectively: VMO and HillVallEA Benefit Together", Mathematics, vol. 8, 665, 2020. https://doi.org/10.3390/math8050665
 
 # HillVallEA
 
