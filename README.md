@@ -10,7 +10,7 @@ At the same time, HVcMO is an extension of HillVallEA, detailed in:
 
 Maree S.C., Alderliesten T., Thierens D., and Bosman, P.A.N., "Benchmarking HillVallEA for the GECCO 2019 Competition on Multimodal Optimization", arXiv preprint, arXiv:1907.10988, 2019.
 
-Maree S.C., Alderliesten T., Thierens D., and Bosman, P.A.N., "Real-Valued Evolutionary Multi-Modal Optimization driven by Hill-Valley Clustering", In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2018), Kyoto, Japan, pp. 857–864, 2018. https://doi.org/10.1145/3205455.3205477
+Maree S.C., Alderliesten T., Thierens D., and Bosman, P.A.N., "Real-Valued Evolutionary Multi-Modal Optimization driven by Hill-Valley Clustering", In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO 2018), Kyoto, Japan, pp. 857–864, 2018. https://doi.org/10.1145/3205455.3205477
 
 # How does HVcMO modifies HillVallEA?
 
